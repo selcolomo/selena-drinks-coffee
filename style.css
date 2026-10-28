@@ -9,7 +9,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-
 /* Menu Button */
 
 #menu-button {
@@ -24,7 +23,6 @@ body {
     font-size: 28px;
     cursor: pointer;
 }
-
 
 /* Sidebar Navigation */
 
@@ -112,7 +110,6 @@ body {
     margin-bottom: 12px;
 }
 
-
 /* Homepage Hero Section */
 
 .hero {
@@ -132,7 +129,6 @@ body {
     margin-top: 15px;
 }
 
-
 /* Coffee Photo Collage */
 
 .coffee-collage {
@@ -140,15 +136,13 @@ body {
 }
 
 .coffee-collage img {
-    display: block;
-
-    width: 90%;
-    max-width: 1000px;
-    height: auto;
-
-    margin: 20px auto;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    margin-top: 0;
 }
-
 
 /* What to Expect */
 
@@ -180,3 +174,357 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* About page */
+
+.about-page {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px 30px;
+}
+
+.about-header h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.about-photo {
+    display: block;
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 25px;
+    border-radius: 8px;
+}
+
+.about-page h2 {
+    margin-top: 40px;
+    margin-bottom: 18px;
+}
+
+.about-page h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.about-page p,
+.about-page li {
+    line-height: 1.8;
+}
+
+.about-page .review-criteria ul {
+    padding-left: 25px;
+}
+
+.about-footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 25px 0;
+}
+
+/* Homepage text layout */
+
+.home-page {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px 30px;
+}
+
+.home-page p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Homepage section headings */
+
+.home-page h1,
+.home-page h2 {
+    margin-bottom: 20px;
+}
+
+.home-page h2 {
+    margin-top: 40px;
+}
+
+
+/* Homepage paragraph layout */
+
+#about,
+#recommendations {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+#about p,
+#recommendations p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Section headings */
+
+#about h2,
+#recommendations h2 {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#recommendations {
+    margin-top: 50px;
+}
+
+/* Homepage title and introduction */
+
+.hero h1,
+.hero .tagline,
+.hero .author {
+    text-align: center;
+}
+
+.hero h1 {
+    font-weight: bold;
+}
+
+.hero .author {
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+/* Indent state names in the sidebar */
+
+#sidebar #states-list {
+    padding-left: 40px;
+}
+
+/* Coffee Map Page */
+
+.map-page {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px 30px;
+}
+
+.map-page h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.map-message {
+    margin-top: 60px;
+    text-align: left;
+}
+
+.map-message h2 {
+    font-weight: bold;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.coming-soon {
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+
+/* Individual coffee shop review pages */
+.review-page {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px 30px;
+    box-sizing: border-box;
+}
+
+.review-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.review-header h1 {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.review-location {
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.review-intro,
+.review-section {
+    margin-bottom: 35px;
+}
+
+.review-intro p,
+.review-section p {
+    line-height: 1.8;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.review-section h2 {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.review-back {
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.review-back a {
+    text-decoration: none;
+}
+
+.review-back a:hover {
+    text-decoration: underline;
+}
+
+/* All Reviews page */
+.all-reviews-page {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px 30px;
+    box-sizing: border-box;
+}
+
+.all-reviews-page h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.state-reviews {
+    margin-bottom: 40px;
+}
+
+.state-reviews h2 {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.state-reviews ul {
+    padding-left: 25px;
+}
+
+.state-reviews li {
+    margin-bottom: 12px;
+    line-height: 1.8;
+}
+
+.state-reviews a {
+    text-decoration: none;
+}
+
+.state-reviews a:hover {
+    text-decoration: underline;
+}
+
+/* State pages */
+.state-page {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px 30px;
+    box-sizing: border-box;
+}
+
+.state-page > h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.state-coffee-shops {
+    margin-bottom: 40px;
+}
+
+.state-coffee-shops h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.state-coffee-shops ul {
+    padding-left: 25px;
+}
+
+.state-coffee-shops li {
+    margin-bottom: 12px;
+    line-height: 1.8;
+}
+
+.state-coffee-shops a {
+    text-decoration: none;
+}
+
+.state-coffee-shops a:hover {
+    text-decoration: underline;
+}
+
+/* Photos on individual coffee shop review pages */
+.review-photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.review-photos img {
+    width: 48%;
+    height: 290px;
+    object-fit: cover;
+    object-position: center 40%;
+    border-radius: 15px;
+}
+
+/* Stack photos on smaller screens */
+@media (max-width: 600px) {
+    .review-photos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-photos img {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+/* Philz review photo */
+.philz-photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.philz-photo img {
+    width: 100%;
+    max-width: 400px;
+    height: 550px;
+    object-fit: cover;
+    object-position: center 65%;
+    border-radius: 15px;
+}
+
+/* Cafe es Amor review photo */
+.cafe-es-amor-photo {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.cafe-es-amor-photo img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+}
