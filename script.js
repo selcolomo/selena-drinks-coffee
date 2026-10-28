@@ -91,4 +91,3 @@ statesButton.addEventListener("click", function () {
 
     statesArrow.textContent = isExpanded ? "−" : "+";
 });
-
