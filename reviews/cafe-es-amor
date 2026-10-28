@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Es Amor | Selena Drinks Coffee</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js" defer></script>
+</head>
+
+<body>
+    <button id="menu-button" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+    <aside id="sidebar">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+
+                <li class="state-menu">
+                    <button id="states-button" aria-expanded="false">
+                        Explore by State <span id="states-arrow">+</span>
+                    </button>
+
+                    <ul id="states-list">
+                        <li><a href="../states/washington.html">Washington</a></li>
+                        <li><a href="../states/california.html">California</a></li>
+                        <li><a href="newmexico.html">New Mexico</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="../map.html">Coffee Map</a></li>
+                <li><a href="index.html">All Reviews</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="review-page">
+        <header class="review-header">
+            <h1>CAFE ES AMOR</h1>
+
+            <p class="review-location">
+                <strong>Location:</strong><br>
+                2209 Central Ave NW<br>
+                Albuquerque, NM
+            </p>
+
+            <div class="review-photos cafe-es-amor-photo">
+                <img src="../images/cafeesamor.JPG" alt="Cafe Es Amor in Albuquerque">
+            </div>
+
+            <!-- Add your Cafe Es Amor photo here if you have one -->
+        </header>
+
+        <section class="review-intro">
+            <p>
+                When I found out about the opening of this coffee shop I knew I had
+                to try it, not just because I love conchas but because I heard of
+                their coffee flights and I was hooked.
+            </p>
+        </section>
+
+        <section class="review-section">
+            <h2>Ambiance</h2>
+
+            <p>
+                A very cute coffee shop with their adorable mugs shelved on their
+                walls. It’s not a large space so probably not ideal for getting
+                work done, but perfect to go enjoy their coffee flight and some food.
+            </p>
+        </section>
+
+        <section class="review-section">
+            <h2>Price</h2>
+
+            <p>
+                Very reasonable prices for their drinks. I appreciate this because
+                typically I am used to being charged for every extra syrup and add
+                on, but here you can get a specialty drink for about $6. Not a bad
+                deal. Their food is also very reasonably priced, and offers a large
+                variety of breakfast meals, pastries, and desserts.
+            </p>
+        </section>
+
+        <section class="review-section">
+            <h2>Coffee</h2>
+
+            <p>
+                Cafe es Amor is definitely the kind of coffee shop I go to when I
+                need something sweet. They have a large range of specialty drinks,
+                a lot of which I have been able to try due to their coffee flight
+                that they offer (definitely recommend, super fun to try with a friend).
+                Their drinks are pretty sweet, but I think that’s to be expected
+                when ordering drinks named after different Mexican cookies and pastries.
+            </p>
+
+            <p>
+                And speaking of pastries, their conchas paired with a coffee is the
+                way to go. The conchas were soft and fluffy, and just sweet enough.
+            </p>
+        </section>
+
+        <p class="review-back">
+            <a href="index.html">← Back to All Reviews</a>
+        </p>
+    </main>
+
+    <footer>
+        <p><a href="../index.html">Back to Home ↑</a></p>
+    </footer>
+</body>
+</html>
